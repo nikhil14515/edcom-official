@@ -150,6 +150,9 @@ a:hover{
 ol{
     text-decoration: none;
 }
+.spacer{
+    margin-right: 0.5%;
+}
 #ham{
   display: none;
   border-style: solid;
@@ -160,7 +163,9 @@ ol{
 
 }
 @media only screen and (min-width: 750px){
-
+    #breaker{
+        display: none;
+    }
     #contest-box{
         padding: 2%;
         display: flex;
@@ -185,6 +190,7 @@ ol{
         justify-content: center;
         align-items: center;
         width: 20%;
+        padding: 1% 0 2% 0%;
     }
     .contest-foreground{
         background-color: white;
@@ -278,7 +284,9 @@ a:hover{
 }
 
 @media only screen and (max-width: 750px){
-
+#breaker{
+    display: inline;
+}
 #contest-box{
     padding: 2%;
     display: flex;

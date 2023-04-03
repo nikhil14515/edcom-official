@@ -260,6 +260,7 @@ ol {
     display: flex;
     align-items: center;
     justify-items: center;
+    margin-left: 2%;
   }
   .bar-img {
     width: 100%;
@@ -457,10 +458,12 @@ a:hover {
     display: flex;
     align-items: center;
     justify-items: center;
+    /* margin: 1%; */
   }
   .bar-img {
-    width: 100%;
+    width: 98%;
     height: 100%;
+    margin: 1%;
   }
   .home-bar-info {
     /* margin-left: 2%; */

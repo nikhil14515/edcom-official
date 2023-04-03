@@ -300,9 +300,9 @@ a:hover{
 .contest-background{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 99%;
+    justify-content: center;
 }
 .contest-foreground{
     background-color: white;
@@ -318,11 +318,12 @@ a:hover{
     justify-content: space-between;
 }
 .contest-background-btns{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 3%;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .contest-btn-blue{
@@ -498,7 +499,7 @@ a:hover{
     user-select: none;
     -webkit-user-select: none;
     vertical-align: middle;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 }
 
   .contest-btn-white:hover,

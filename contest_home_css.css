@@ -151,7 +151,7 @@ ol{
     text-decoration: none;
 }
 .spacer{
-    margin-right: 0.5%;
+    margin-right: 10px;
 }
 #ham{
   display: none;
